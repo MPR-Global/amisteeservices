@@ -1,0 +1,1721 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+@font-face {
+    font-family: futuraBT;
+    src: url(../font/futuraBT.otf);
+}
+
+@font-face {
+    font-family: futuraMD;
+    src: url(../font/futuraMD.ttf);
+}
+
+@font-face {
+    font-family: Impact;
+    src: url(../font/Impact.ttf);
+}
+
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+.header_container{
+	height:151px;
+}
+
+.nav_bottom{
+	margin-bottom:0px;
+	border-radius:0px;
+}
+
+.menu_background_area{
+	background:#043C6D;
+}
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo_area_pos{
+	margin-top:5px;
+	width: 75%;
+}
+
+.air_duct_style{
+	color:#77B5F9;	
+	line-height: 12px;
+}
+
+.air_duct_h2{
+	font-size:34px;
+	font-family: futuraMD;
+}
+
+.air_duct_h2_mob{
+	display:none;
+}
+
+.residential_text{
+	font-size:24px;
+	font-family: futuraBT;
+}
+
+.residential_text_mob{
+	display:none;
+}
+
+.insulation_area{
+	text-align: right; 
+	color:#77B5F9;
+	line-height: 25px;
+	position:relative;
+}
+
+.insulation_h2{
+	font-size:34px;
+	font-family: futuraMD;
+}
+
+.install_text{
+	font-size:30px;
+	font-family: futuraMD;
+}
+
+.support_text24{
+	display: block;
+	font-size: 15px;
+	border: 0px solid red;
+	position: absolute;
+	color: #fff;
+	top:118px;
+	right: 18px;
+	
+}
+
+.support_text24 a{
+	color:#fff !important;
+}
+
+.support_text24_mob{
+	display: block;
+	font-size: 15px;
+	border: 0px solid red;
+	position: absolute;
+	color: #fff;
+	top:118px;
+	right: 18px;
+	display:none;
+}
+
+.support_text24_mob a{
+	color:#fff !important;
+}
+
+
+.nav_wrap{
+	font-family: futuraMD;
+}
+
+.nav>li>a{
+	padding:10px 21px;
+	background:url('../images/nav_border.jpg') 0 10px no-repeat;
+}
+
+
+.categ_wrapper{
+	border:0px solid red;
+	height:auto;
+	margin-top: -71px;
+}
+
+.categ_text{
+	font-size: 10px;
+	line-height: 13px;
+	display: block;
+	text-align: center;
+	color: #000;
+	padding: 10px 0 10px 0;
+}
+
+.video_wrapper{
+	border:0px solid red;
+	height:auto;
+	margin-top: -31px;
+}
+
+.res_img_area{
+	background: url(../images/resN.png);
+	background-repeat: no-repeat;
+	display:block;
+	width:185px;
+	height:180px;
+	margin:0 auto;
+	position: relative;
+    left: -10px;
+}
+
+.res_img_head{
+	position: absolute;
+	top: 21px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Arial;
+	text-align: center;
+	line-height: 18px;
+	left: 25px;
+}
+
+.ins_img_head{
+	position: absolute;
+	top: 21px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Arial;
+	text-align: center;
+	line-height: 18px;
+	left: 1px;
+}
+
+.dry_img_head{
+	position: absolute;
+	top: 21px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Arial;
+	text-align: center;
+	line-height: 18px;
+	left: 38px;
+}
+
+
+.com_img_area{
+	background: url(../images/comN.png);
+	background-repeat: no-repeat;
+	display:block;
+	width:185px;
+	height:180px;
+	margin:0 auto;
+	position: relative;
+    left: -10px;
+}
+
+.video_area_top{
+	width:81%;
+	width: 81%;
+	border: 5px solid rgb(147, 195, 92);
+	height: 210px;
+}
+
+.video_area{
+	background: url(../images/video.png);
+	background-repeat: no-repeat;
+	display:block;
+	width:345px;
+	height:292px;
+}
+
+.ins_img_area{
+	background: url(../images/insN.png);
+	background-repeat: no-repeat;
+	display:block;
+	width:185px;
+	height:180px;
+	margin:0 auto;
+	position: relative;
+    left: -10px;
+}
+
+.dry_img_area{
+	background: url(../images/dryN.png);
+	background-repeat: no-repeat;
+	display:block;
+	width:185px;
+	height:180px;
+	margin:0 auto;
+	position: relative;
+    left: -10px;
+}
+
+.intro_text_top{
+	font-size: 26px;
+	color: #0055A5;
+	display: block;
+	padding: 15px;
+	font-family:Arial;
+}
+
+.intro_text{
+	font-size: 20px;
+	color: #000;
+	display: block;
+	padding: 0px 15px 15px 15px;
+	font-family:Arial;
+}
+
+.how_do_heading{
+	font-size: 35px;
+	color: #0055A5;
+	display: block;
+	padding: 15px;
+	text-transform: uppercase;
+	/*font-weight: bold;*/
+	font-family: Impact;
+}
+
+.how_do_text{
+	font-size: 18px;
+	color: #000;
+	display: block;
+	padding: 0px 15px 15px 15px;
+	line-height: 28px;
+	font-family:Arial;
+}
+
+.how_do_img_area{
+	float:right;
+	width: 30%;
+	position: relative;
+	top: -18px;
+}
+
+.ins_banner_area{
+	width:100%;
+}
+
+.whyclean_banner_area{
+	width:100%;
+}
+
+.allduct_service_area{
+	width:100%;
+}
+
+.air_ducts_categ{
+	width:146px;
+	height:165px;
+	border:0px solid red;
+	float:left;
+	margin:10px;
+}
+
+.clean_categ_wrapper{	
+	width: 47%;
+	height: 376px;
+	border:0px solid red;
+	margin:12px;
+	float:left;
+}
+
+.before_categ_head{
+	background: #D1D3D4;
+	padding: 0px;
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	font-size: 19px;
+	text-align: center;
+}
+
+.after_categ_head{
+	background: #A1CF6C;
+	padding: 0px;
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	font-size: 19px;
+	text-align: center;
+}
+
+.why_clean_wrapper{
+	background: url(../images/clean_bg.jpg) 212px 120px;
+	background-repeat: no-repeat;
+	width: 47%;
+	height: 376px;
+	border:0px solid red;
+	margin:12px;
+	float:left;
+}
+
+.why_clean_head{
+	font-size: 32px;
+	color: #0055A5;
+	display: block;
+	padding: 15px 15px 0px 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Impact;
+}
+
+.why_clean_text{
+	font-size: 18px;
+	color: #000;
+	display: block;
+	padding: 15px;
+	line-height: 25px;
+	font-family: Arial;
+}
+
+.why_clean_text ul{
+	margin-left: -21px;
+	margin-top: 5px;
+}
+
+.when_u_investing_wrapper{	
+	width: 98%;
+	height: auto;
+	min-height: 326px;
+	border:0px solid red;
+	margin:12px;
+}
+
+.when_u_investing_video_area{
+	width: 98%;
+	height: auto;
+	min-height: 314px;
+	border:0px solid red;
+	margin:12px;
+}
+
+.when_u_investing_text{
+	font-size: 18px;
+	color: #002A52;
+	display: block;
+	padding: 15px;
+	line-height: 26px;	
+	text-align: justify;
+	font-family: Arial;
+}
+
+.when_u_investing_video{
+	margin:24px 0 0px 10px;
+	width: 100%;
+	height: 301px;
+}
+
+.amistee_featured_container{
+	background: #0055A5 url(../images/paper.png) -14px 246px;
+	background-repeat: no-repeat;
+}
+
+.strip_area{
+	background: #0055A5 url(../images/strip.png);
+	height:22px;
+}
+
+.amistee_featured_head{
+	font-size: 31px;
+	color: #71BE46;
+	display: block;
+	padding: 10px 15px 10px 0px;	
+	font-weight: bold;
+	font-family: Impact;
+	letter-spacing: 3px;
+}
+
+.amistee_featured_text{
+	font-size: 15px;
+	color: #fff;
+	display: block;
+	padding: 5px 0 0 0;
+	line-height: 26px;	
+	text-align: justify;
+	border-bottom:2px solid #fff;
+	letter-spacing: 1px;
+}
+
+.paper_img{
+
+}
+
+.brand_wrapper{
+	padding: 10px;	
+}
+
+.brand_logo_comp_rev{
+	float: left;
+	/*width: 121px;*/
+	height: 171px;
+	border: 0px solid red;
+	margin: 1px;
+}
+
+.brand_logo{
+	float: left;
+	/*width: 121px;*/
+	height: 80px;
+	border: 0px solid red;
+	margin: 1px;
+}
+
+.brand_logo_super_service{
+	float: left;
+	/*width: 121px;*/
+	height: 215px;
+	border: 0px solid red;
+	margin: 1px;
+}
+
+.blue_strip_area{
+	background: #002A52 url(../images/strip2.png);
+	height: 21px;
+}
+
+.footer_wrapper{
+	min-height:68px;
+}
+
+.footer_link_wrap{
+	min-height:68px;
+}
+
+.footer_link_wrap a{
+	position:relative;
+	top:13px;
+	left:0px;
+	padding-left: 0px;
+}
+
+.footer_text{
+	color: #fff;
+	text-align: center;
+	display: block;
+	padding: 15px;
+	font-size: 18px;
+	font-family: Arial;
+}
+
+
+.instant_price_quote_wrapper{
+	height: 261px;
+	border: 0px solid red;
+	width: 241px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background: url(../images/form_bg.png);
+}
+
+.instant_price_quote_wrapper_mob{
+	height: 261px;
+	border: 0px solid red;
+	width: 241px;	
+	background:#002A52;
+	margin: 0px auto;
+}
+
+.instant_form{
+	background:#fff;
+	padding:12px 0 12px 0;
+	display:none;
+}
+
+.video_shade{
+	background: url(../images/shadow_video.png) no-repeat center bottom;
+    padding-bottom: 2%;
+}
+
+
+.instant_price_quote_heading{
+	font-family: Impact;
+	color:#fff !important;
+	font-size:21px;
+	text-shadow:1px 2px 5px #000;
+	text-align: center;
+	display: block;
+	padding: 12px;
+}
+
+.text_field_wrap{
+	border:0px solid red;
+	margin:0 auto;
+	width:81%;
+}
+
+.text_style{
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	height: 20px;
+	background: #77B5F9;
+	border: none;
+	color: #fff;
+	font-size: 12px;
+	font-family: Arial;
+	padding: 2px 10px 2px 6px;
+	width:100%;
+}
+
+.select_style{
+	width:100%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	height: 20px;
+	background: #77B5F9;
+	border: none;
+	color: #fff;
+	font-family: Arial;
+	padding: 2px 10px 2px 10px;
+	font-size: 12px;
+}
+
+::-webkit-input-placeholder { color:#fff; }
+::-moz-placeholder { color:#fff; } /* firefox 19+ */
+:-ms-input-placeholder { color:#fff; } /* ie */
+input:-moz-placeholder { color:#fff; }
+
+.submitbtn_style{
+	border:none;
+	position: relative;
+	left: 133px;
+	top: 5px;
+}
+
+.privacy_policy_style{
+	color: #BDD9F9;
+	text-decoration: underline;
+	position: relative;
+	top: 3px;
+	left: -61px;
+}
+
+#phone_no {
+	background: url(../images/social_icon.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin: 32px 0px 0 0;
+	width: 158px;
+	height: 30px;
+	border: 0px solid red;
+	font-family: arial;
+}
+
+#phone_no #social_area{
+	margin: 0px 0px 0px 5px;
+	float: left;
+	width: 32px;
+	height: 29px;
+	position: relative;
+	border: 0px solid #F00;
+	left: -9px;
+	top: 0px;
+}
+
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+/*****inner page style*****/
+
+.inner_video_area{
+	width:91%;
+	height:356px;
+}
+
+.free_estimate_wrapper{
+	width:100%;
+	height:201px;
+	border:1px solid #000;
+	background:#0055A5;
+	border-radius:5px;
+	box-shadow:0px 3px 12px #9B9797;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.free_estimate_text{
+	font-family: futuraMD;
+	color: #fff;
+	font-size: 38px;
+	padding: 15px 0 0 0;
+	letter-spacing: 3px;   
+}
+
+.free_estimate_ph_no {
+	font-family: impact;
+	color: #fff;
+	font-size: 38px;
+	padding: 0px;
+	letter-spacing: 5px;
+	background: url(../images/call_icon.png) 14% 45% no-repeat;
+	text-decoration:none;
+}
+
+.bluboldtxt {
+  font-family: Impact;
+  font-size: 25px;
+  font-weight: bold;
+  color: #01559E;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.before_afterhead {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #01559E;
+  text-decoration: none;
+  padding: 3%;
+  display: block;
+  text-align:center;
+}
+
+.free_estimate_btn{
+	border:inherit;
+	width:68%;
+	height:51px;
+	color:#000;
+	background:#fff;
+}
+
+.free_estimate_wrapper_mob{
+	width:100%;
+	height:201px;
+	border:1px solid #000;
+	background:#0055A5;
+	border-radius:5px;
+	box-shadow:0px 3px 12px #9B9797;
+	margin-top: 6%;
+	margin-bottom: 0%;
+	display:none;
+}
+
+.free_estimate_text_mob{
+	font-family: futuraMD;
+	color: #fff;
+	font-size: 38px;
+	padding: 15px 0 0 0;
+	letter-spacing: 3px;   
+}
+
+.free_estimate_ph_no_mob {
+	font-family: impact;
+	color: #fff;
+	font-size: 38px;
+	padding: 0px;
+	letter-spacing: 5px;
+	background: url(../images/call_icon.png) 14% 45% no-repeat;
+	text-decoration:none;
+}
+
+.free_estimate_btn_mob{
+	border:inherit;
+	width:68%;
+	height:51px;
+	color:#000;
+	background:#fff;
+}
+
+.before_after_wrapper{
+	width:100%;
+	height:61px;
+	border:0px solid #000;	
+	margin-top: 6%;
+	margin-bottom: 6%;
+}
+
+.before_wrapper{
+	width:50%;
+	height:61px;
+	border:1px solid #6C6C6C;	
+	float:left;
+	font-family: futuraMD;
+	text-align: center;
+	padding: 3.5%;
+	font-size: 20px;
+	color:#507E12;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: url(../images/bef_bg.jpg);
+}
+
+.after_wrapper{
+	width:50%;
+	height:61px;
+	border:1px solid #6C6C6C;	
+	float:left;
+	font-family: futuraMD;
+	text-align: center;
+	padding: 3.5%;
+	font-size: 20px;
+	color:#10599D;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: url(../images/aft_bg.jpg);
+}
+
+.before_after_img_area{
+	width:100%;
+	height:auto;
+	border:0px solid #000;	
+	float: left;
+	margin-bottom: 6%;
+}
+
+.before_img_wrapper{
+	width:50%;
+	height:184px;
+	border:0px solid #6C6C6C;	
+	float:left;	
+	margin-top: 3%;
+}
+
+.before_img_wrapper img{
+	max-width:100%;
+	width: 98%;
+}
+
+.after_img_wrapper{
+	width:50%;
+	height:184px;
+	border:0px solid #6C6C6C;	
+	float:left;	
+	margin-top: 3%;
+}
+
+.after_img_wrapper img{
+	max-width:100%;
+	width: 98%;
+	float: right;
+}
+
+.testimonial_wrapper{
+	width:100%;
+	height:auto;
+	border:1px solid #aaa;	
+	float: left;
+	margin-bottom: 6%;
+	background: #fefefd; /* Old browsers */
+background: -moz-linear-gradient(top,  #fefefd 0%, #d8d8d8 48%, #d8d8d8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefd), color-stop(48%,#d8d8d8), color-stop(100%,#d8d8d8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #fefefd 0%,#d8d8d8 48%,#d8d8d8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fefefd 0%,#d8d8d8 48%,#d8d8d8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fefefd 0%,#d8d8d8 48%,#d8d8d8 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #fefefd 0%,#d8d8d8 48%,#d8d8d8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefd', endColorstr='#d8d8d8',GradientType=0 ); /* IE6-9 */
+
+}
+
+.testimonial_heading{
+	color: #0F365B;
+	font-size: 18px;
+	margin-left: 3%;
+	margin-top: 5%;
+	display: block;
+	font-weight: bold;
+}
+
+.testimonial_detail{
+	color: #0F365B;
+	font-size: 18px;
+	margin-left: 3%;
+	margin-right: 6%;
+	display: block;
+	text-align: justify;
+}
+
+.testimonial_user_name{
+	color: #0F365B;
+	font-size: 18px;
+	margin-right: 2%;
+	display: block;
+	font-weight: bold;
+	float:right;
+	margin-bottom: 6%;
+	margin-left: 3%;
+}
+
+.our_promise_area{
+	width:100%;
+	height:auto;
+	border:0px solid #aaa;	
+	float: left;
+	margin-bottom: 6%;
+	background:#A0CF67;
+	padding:6%;
+	color:#2E6D06;
+	font-weight: bold;
+	font-size: 21px;
+	margin-top:31px;
+}
+
+.upfooter_wrapper{	
+	width: 98%;
+	height: auto;	
+	border:0px solid red;
+	margin:0px;
+}
+
+.upfooter_img_wrapper{
+	width: 98%;
+	height: auto;	
+	border:0px solid red;
+	margin:0px;
+}
+
+.upfooter_wrapper_ul{
+	list-style: none;
+	margin-top:12%;
+	margin-left: -40%;
+}
+
+.upfooter_wrapper_ul li{	
+	display: block;
+	padding: 5px;	
+	line-height: 15px;		
+}
+
+.upfooter_wrapper_ul li a{
+	font-size: 14px;
+	color: #A0CF67;
+	display: block;	
+	text-transform:uppercase;
+	text-decoration:none;		
+	font-family: futuraBT;
+}
+
+.upfooter_img_position{
+	width: 100%;
+	height: 286px;
+}
+
+.inner_banner_area{
+	width:408px;
+	height:338px !important;
+	border:1px solid #909090;
+}
+
+
+/*****END*****/
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+	
+	.header_container{
+		height:auto;
+	}		
+	
+	/*.free_estimate_wrapper{		
+		display:none;
+	}
+	
+	.free_estimate_wrapper_mob{		
+		display:block;
+	}*/
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	.inner_banner_area{
+		height:291px !important;
+	}
+	
+	.brand_logo_comp_rev{
+		float:inherit;
+		margin:0 auto;
+		width: 28%;
+		height:auto;
+	}
+	
+	.brand_logo_super_service{
+		float:inherit;
+		margin:0 auto;
+		width: 28%;
+		height:auto;
+	}
+	
+	.upfooter_wrapper_ul{		
+		margin-left: -26%;
+	}
+	
+	.air_duct_h2{
+		font-size:28px;		
+	}
+
+	.residential_text{
+		font-size:20px;		
+	}
+	
+	.insulation_h2 {
+	  font-size: 28px;	  
+	}
+	
+	.install_text {
+	  font-size: 26px;	  
+	}
+	
+	.support_text24 {	  
+	  font-size: 12px;	 
+	}
+	
+	.nav>li>a{
+	  padding: 10px 12px;
+	  background:initial !important;
+	}
+	
+	.res_img_area{
+	  left:-26px;	
+	}
+	
+	.com_img_area{
+	  left:-21px;
+	}
+	
+	.ins_img_area{
+	  left:-36px;	
+	}
+	
+	.dry_img_area{
+	  left:-25px;
+	}
+	
+	.how_do_img_area {	  
+	  top: 5px;
+	}
+	
+	.before_wrapper{
+		padding:2%;
+	}
+	
+	.after_wrapper{
+		padding:2%;
+	}
+	
+	.before_img_wrapper{
+		margin-bottom:19%;
+	}
+	
+	.after_img_wrapper{
+		margin-bottom:19%;
+	}
+	
+	.free_estimate_ph_no {		
+		background: url(../images/call_icon.png) 32% 45% no-repeat;
+	}
+	
+	.inner_video_area {
+	  width: 100%;
+	  height: 451px;
+	}
+	
+	.free_estimate_wrapper{		
+		display:none;
+	}
+	
+	.free_estimate_wrapper_mob{		
+		display:block;
+	}
+	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	.inner_banner_area{
+		height:291px !important;
+	}
+	
+	.brand_logo_comp_rev{
+		float:inherit;
+		margin:0 auto;
+		width: 28%;
+		height:auto;
+	}
+	
+	.brand_logo_super_service{
+		float:inherit;
+		margin:0 auto;
+		width: 28%;
+		height:auto;
+	}
+	
+	.air_duct_h2{
+		font-size:22px;		
+	}
+
+	.residential_text{
+		font-size:15px;		
+	}
+	
+	.insulation_h2 {
+	  font-size: 22px;	  
+	}
+	
+	.install_text {
+	  font-size: 20px;	  
+	}
+	
+	.support_text24 {	  
+	  font-size: 9px;
+	  top: 98px;
+	  left:0px;	
+	}		
+	
+	.nav>li>a{
+	  padding: 10px 5px;
+      font-size: 12px;
+	  background:initial !important;
+	}
+	
+	.video_wrapper {	  
+	  margin-top: 12px;
+	}
+	
+	.categ_wrapper{
+	  margin-top: 12px;	
+	}
+	
+	.res_img_area{
+	  left:1px;	
+	}
+	
+	.com_img_area{
+	  left:-3px;
+	}
+	
+	.ins_img_area{
+	  left:-8px;	
+	}
+	
+	.dry_img_area{
+	  left:2px;
+	}
+	
+	.how_do_img_area {	  
+	  top: 5px;
+	}
+	
+	.clean_categ_wrapper{
+		height:auto;
+		width:98%;
+	}
+	
+	.why_clean_wrapper{
+		height:auto;
+		width:98%;
+	}
+	
+	.before_wrapper{
+		padding:2%;
+	}
+	
+	.after_wrapper{
+		padding:2%;
+	}
+	
+	.before_img_wrapper{
+		margin-bottom:13%;
+	}
+	
+	.after_img_wrapper{
+		margin-bottom:13%;
+	}
+	
+	.free_estimate_wrapper{		
+		display:none;
+	}
+	
+	.free_estimate_wrapper_mob{		
+		display:block;
+	}
+	
+	.free_estimate_ph_no_mob {		
+		background: url(../images/call_icon.png) 26% 45% no-repeat;
+	}
+	
+	.inner_video_area {
+	  width: 100%;
+	  height: 381px;
+	}
+	
+	.upfooter_wrapper_ul{		
+		margin-left: -9%;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.air_duct_h2{
+		font-size:21px;		
+	}
+	
+	.brand_logo_comp_rev{
+		float:inherit;
+		margin:0 auto;
+		width: 28%;
+		height:auto;
+	}
+	
+	.brand_logo_super_service{
+		float:inherit;
+		margin:0 auto;
+		width: 28%;
+		height:auto;
+	}
+
+	.residential_text{
+		font-size:13px;		
+	}
+	
+	.air_duct_h2_mob{
+		display:block;
+		font-size: 21px;
+	  margin-top: 10px;
+	  margin-bottom:1px;
+	}
+
+	.residential_text_mob{
+		display:block;
+		font-size: 15px;	
+	}
+	
+	.insulation_h2 {
+	  display:none;
+	}
+	
+	.install_text {
+	  font-size: 15px;
+	  display:none;	
+	}
+	
+	.support_text24{
+		display: none;		
+	}
+	
+	.support_text24_mob{
+		display: block;		
+	}
+	
+	.support_text24_mob {	  
+	  position:inherit;
+	  top:inherit;
+	  left:0px;		
+	}
+	
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+	
+	.header_container{
+		height:auto;
+	}
+	
+	.air_duct_style{
+		display:none;
+	}
+	
+	.insulation_area{
+		text-align: center; 
+		color:#77B5F9;
+	}
+	
+	.logo_margin_area{
+		margin-top:0px;
+	}
+	
+	#phone_no{
+		margin:0 auto;
+		float:inherit;
+		margin-top: 10px;
+	}
+	
+	.categ_wrapper{
+		margin-top:0px;
+	}
+	
+	.video_wrapper{		
+		margin-top: 0px;
+	}
+		
+	
+	.why_clean_wrapper{
+		height:auto;
+		background:inherit;
+		width:100%;
+	}
+	
+	.clean_categ_wrapper{
+		height:auto;
+		float:inherit;
+		width:100%;
+	}
+	
+	.instant_price_quote_wrapper{
+		display:none;
+	}
+	
+	.logo_area_pos {
+	  margin-top: 5px;
+	  width: 39%;
+	}
+	
+	.amistee_featured_head{
+		font-size:16px;
+	}
+	
+	.amistee_featured_text{
+		font-size:11px;
+	}
+	
+	.amistee_featured_container{
+		background:#0055A5;
+	}
+	
+	.when_u_investing_video{
+		height:auto;
+		margin: 24px 0 0px 0px;
+	}
+	
+	.when_u_investing_video_area{
+		min-height:inherit;
+		margin: 12px 0 12px 0;
+	}
+	
+	.when_u_investing_text{
+		padding:0px;
+	}
+	
+	.when_u_investing_wrapper{
+		margin: 12px 0 12px 0;
+	}
+	
+	.why_clean_wrapper{
+		margin: 12px 0 12px 0;
+	}
+	
+	.footer_text{
+		font-size:14px;
+	}
+	
+	.brand_logo {	  
+	  margin: 10px 0 0 3px;
+	}
+	
+	.instant_form{
+		background:#fff;
+		padding:12px 0 12px 0;
+		display:block;
+	}
+	
+	.footer_link_wrap{
+		height: 231px;
+	}
+	
+	.res_img_area{
+	  left:0px;	
+	}
+	
+	.com_img_area{
+	  left:0px;	
+	}
+	
+	.ins_img_area{
+	  left:0px;
+	}
+	
+	.dry_img_area{
+	  left:0px;
+	}
+	
+	.air_ducts_categ{
+		margin:0 auto;
+		float:inherit;
+		margin-top:5%;
+	}
+	
+	.before_wrapper{
+		padding:3%;
+	}
+	
+	.after_wrapper{
+		padding:3%;
+	}
+	
+	.before_img_wrapper{
+		margin-bottom:6%;
+	}
+	
+	.after_img_wrapper{
+		margin-bottom:6%;
+	}
+	
+	.free_estimate_wrapper{		
+		display:none;
+	}
+	
+	.free_estimate_wrapper_mob{		
+		display:block;
+	}
+	
+	.free_estimate_ph_no_mob {		
+		background: url(../images/call_icon.png) 12% 45% no-repeat;
+	}
+	
+	.inner_video_area {
+	  width: 100%;
+	  height: 281px;
+	}
+	
+	.inner_banner_area{
+		/*height:291px !important;
+		width: 86%;*/
+		display:none;
+	}
+	
+	.upfooter_wrapper_ul{		
+		margin-left: -12%;
+	}
+	
+	.bluboldtxt1{
+		display:none;
+	}
+	
+}
+
+@media only screen and (min-width: 221px) and (max-width: 479px) {
+
+	.inner_banner_area{
+		/*height:231px !important;
+		width: 86%;*/
+		display:none;
+	}
+	
+	.air_duct_h2{
+		font-size:21px;		
+	}
+
+	.residential_text{
+		font-size:13px;		
+	}
+	
+	.bluboldtxt1{
+		display:none;
+	}
+	
+	.air_duct_h2_mob{
+		display:block;
+		font-size: 21px;
+	  margin-top: 10px;
+	  margin-bottom:1px;
+	}
+
+	.residential_text_mob{
+		display:block;
+		font-size: 15px;	
+	}
+	
+	.insulation_h2 {
+	  display:none;
+	}
+	
+	.install_text {
+	  font-size: 15px;
+	  display:none;	
+	}
+	
+	.support_text24{
+		display: none;		
+	}
+	
+	.support_text24_mob{
+		display: block;		
+	}
+	
+	.support_text24_mob {	  
+	  position:inherit;
+	  top:inherit;
+	  left:0px;		  
+	}
+	
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+	
+	.header_container{
+		height:auto;
+	}
+	
+	.air_duct_style{
+		display:none;
+	}
+	
+	.insulation_area{
+		text-align: center; 
+		color:#77B5F9;
+	}
+	
+	.logo_margin_area{
+		margin-top:0px;
+	}
+	
+	#phone_no{
+		margin:0 auto;
+		float:inherit;
+		margin-top: 10px;
+	}
+	
+	.categ_wrapper{
+		margin-top:0px;
+	}
+	
+	.video_wrapper{		
+		margin-top: 0px;
+	}
+		
+	
+	.why_clean_wrapper{
+		height:auto;
+		background:inherit;
+		width:100%;
+	}
+	
+	.clean_categ_wrapper{
+		height:auto;
+		float:inherit;
+		width:100%;
+	}
+	
+	.instant_price_quote_wrapper{
+		display:none;
+	}
+	
+	.logo_area_pos {
+	  margin-top: 5px;
+	  width: 39%;
+	}
+	
+	.amistee_featured_head{
+		font-size:16px;
+	}
+	
+	.amistee_featured_text{
+		font-size:11px;
+	}
+	
+	.amistee_featured_container{
+		background:#0055A5;
+	}
+	
+	.when_u_investing_video{
+		height:auto;
+		margin: 24px 0 0px 0px;
+	}
+	
+	.when_u_investing_video_area{
+		min-height:inherit;
+		margin: 12px 0 12px 0;
+	}
+	
+	.when_u_investing_text{
+		padding:0px;
+	}
+	
+	.when_u_investing_wrapper{
+		margin: 12px 0 12px 0;
+	}
+	
+	.why_clean_wrapper{
+		margin: 12px 0 12px 0;
+	}
+	
+	.footer_text{
+		font-size:14px;
+	}
+	
+	.brand_logo {	  
+	  margin: 10px 0 0 3px;
+	}
+	
+	.instant_form{
+		background:#fff;
+		padding:12px 0 12px 0;
+		display:block;
+	}
+	
+	.footer_link_wrap{
+		height: 231px;
+	}
+	
+	.res_img_area{
+	  left:0px;	
+	}
+	
+	.com_img_area{
+	  left:0px;	
+	}
+	
+	.ins_img_area{
+	  left:0px;
+	}
+	
+	.dry_img_area{
+	  left:0px;
+	}
+	
+	.air_ducts_categ{
+		margin:0 auto;
+		float:inherit;
+		margin-top:5%;
+	}
+	
+	.clean_categ_wrapper{
+		height:auto;
+		float:inherit;
+		width:98%;
+		margin-left:0%;
+	}
+	
+	.upfooter_wrapper_ul{
+		margin-left: -23%;
+	}
+	
+	.before_wrapper{
+		padding:4%;
+	}
+	
+	.after_wrapper{
+		padding:4%;
+	}
+	
+	.before_img_wrapper{
+		margin-bottom:1%;
+		height:auto;
+	}
+	
+	.after_img_wrapper{
+		margin-bottom:1%;
+		height:auto;
+	}
+	
+	.free_estimate_wrapper{		
+		display:none;
+	}
+	
+	.free_estimate_wrapper_mob{		
+		display:block;
+	}
+	
+	.free_estimate_ph_no_mob {		
+		background: url(../images/call_icon.png) 1% 45% no-repeat;
+		font-size:28px;
+	}
+	
+	.inner_video_area {
+	  width: 100%;
+	  height: 281px;
+	}
+	
+	.free_estimate_text_mob{
+		font-size:28px;
+		padding: 30px 0 0 0;
+	}
+	
+	/*.free_estimate_ph_no{
+		font-size:28px;
+	}*/
+	
+	.upfooter_img_position{
+		width: 100%;
+		height: auto;
+	}
+	
+	.brand_logo_comp_rev{
+		float:inherit;
+		margin:0 auto;
+		width: 75%;
+		height:auto;
+	}
+	
+	.brand_logo_super_service{
+		float:inherit;
+		margin:0 auto;
+		width: 75%;
+		height:auto;
+	}
+	
+	.free_estimate_ph_no_mob {		
+		background:inherit;
+	}
+
+
+}

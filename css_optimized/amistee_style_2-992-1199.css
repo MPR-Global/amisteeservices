@@ -1,0 +1,26 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+.inner_banner_area{height:291px!important}
+.inner_banner_area_mob{height:291px!important;display:none}
+.brand_logo_comp_rev{float:inherit;margin:0 auto;width:28%;height:auto}
+.brand_logo_super_service{float:inherit;margin:0 auto;width:28%;height:auto}
+.upfooter_wrapper_ul{margin-left:0;padding-left:0}
+.air_duct_h2{font-size:28px}
+.residential_text{font-size:19px}
+.insulation_h2{font-size:28px}
+.install_text{font-size:26px}
+.support_text24{font-size:12px}
+.nav>li>a{padding:10px 12px;background:initial!important}
+.res_img_area{left:-26px}
+.com_img_area{left:-21px}
+.ins_img_area{left:-36px}
+.dry_img_area{left:-25px}
+.how_do_img_area{top:5px}
+.before_wrapper{padding:2%}
+.after_wrapper{padding:2%}
+.before_img_wrapper{margin-bottom:19%}
+.after_img_wrapper{margin-bottom:19%}
+.free_estimate_ph_no{background:url(../images_optimized/call_icon.png) 32% 45% no-repeat}
+.inner_video_area{width:100%;height:451px}
+.free_estimate_wrapper{display:none}
+.free_estimate_wrapper_mob{display:block;height:573px}
+}

@@ -1,0 +1,10 @@
+@media(max-width:991px) {
+.customer-img,.img-related{margin-bottom:30px}
+.big-logo-width{max-width:100%}
+.header_container{height:auto}
+.all_duct_bg{background:#99cb5c}
+.all_duct_text{font-size:36px;text-align:center}
+.all_duct_call_text{font-size:46px;text-align:center;padding:0 12px 18px 0}
+.all_duct_call_text > img{position:inherit;left:inherit;top:inherit}
+.padding_put{padding:inherit}
+}

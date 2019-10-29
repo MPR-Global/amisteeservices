@@ -1,0 +1,4 @@
+@media(max-width:767px) {
+header.desktop_slider{display:none}
+header.mobile_slider{display:block}
+}

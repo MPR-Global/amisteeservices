@@ -1,0 +1,4 @@
+@media(min-width:1600px) {
+.instant_price_quote_wrapper{height:301px;border:0 solid red;width:261px;position:absolute;top:5px;right:3px;background:#0055A5;border:1px solid #000;border-radius:10px;margin-top:4%}
+.instant_price_quote_heading_index{font-family:Impact;color:#fff!important;font-size:21px;text-shadow:1px 2px 5px #000;text-align:center;display:block;padding:12px;margin-top:23px}
+}

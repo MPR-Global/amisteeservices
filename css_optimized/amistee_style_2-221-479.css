@@ -1,0 +1,77 @@
+@media only screen and (min-width: 221px) and (max-width: 479px) {
+.hide_video{display:none}
+.mob_hide{display:none}
+.categ_text{display:none}
+.main_page_nav{display:none}
+.inner_banner_area{display:none}
+.inner_banner_area_mob{height:291px!important;display:block;width:auto}
+.nav>li>a{background:initial!important}
+.air_duct_h2{font-size:21px}
+.for_anchor_link{clear:both;padding-right:0;padding-left:0}
+.residential_text{font-size:13px}
+.air_duct_h2_mob{display:block;font-size:21px;margin-top:10px;margin-bottom:1px}
+.residential_text_mob{display:block;font-size:15px}
+.insulation_h2{display:none}
+.install_text{font-size:15px;display:none}
+.support_text24{display:none}
+.support_text24_mob{display:block;position:inherit;top:inherit;left:0}
+.img-portfolio{margin-bottom:15px}
+header.carousel .carousel{height:70%}
+.header_container{height:auto}
+.air_duct_style{display:none}
+.insulation_area{text-align:center;color:#77B5F9}
+.logo_margin_area{margin-top:0}
+#phone_no{margin:0 auto;float:inherit;margin-top:10px}
+.categ_wrapper{margin-top:0}
+.video_wrapper{margin-top:0}
+.why_clean_wrapper{height:auto;background:inherit;width:100%}
+.clean_categ_wrapper{height:auto;float:inherit;width:100%;margin:0;display:none}
+.instant_price_quote_wrapper{display:none}
+.logo_area_pos{margin-top:5px;width:39%}
+.amistee_featured_head{font-size:16px}
+.amistee_featured_text{font-size:10px}
+.amistee_featured_container{background:#0055A5}
+.when_u_investing_video{height:241px;margin:24px 0 0}
+.when_u_investing_video_area{min-height:inherit;margin:12px 0}
+.when_u_investing_text{padding:0}
+.when_u_investing_wrapper{margin:12px 0}
+.why_clean_wrapper{margin:12px 0}
+.footer_text{font-size:12px}
+.brand_logo{height:68px}
+.instant_form{background:#fff;padding:12px 0;display:block}
+.footer_link_wrap{height:231px}
+.res_img_area{left:0}
+.com_img_area{left:0}
+.ins_img_area{left:0}
+.dry_img_area{left:0}
+.air_ducts_categ{margin:0 auto;float:inherit;margin-top:5%;width:100%;height:auto}
+.air_ducts_categ > img{width:100%}
+.after_categ_head{padding:6px}
+.before_categ_head{padding:6px}
+.upfooter_wrapper_ul{margin-left:0;padding-left:0}
+.mob_view{width:33%;float:left;height:auto}
+.upfooter_wrapper_ul li a{font-size:9px}
+.before_wrapper{padding:5%}
+.after_wrapper{padding:5%}
+.before_img_wrapper{margin-bottom:1%;height:auto}
+.after_img_wrapper{margin-bottom:1%;height:auto}
+.free_estimate_wrapper{display:none}
+.free_estimate_ph_no_mob{background:url(../images_optimized/call_icon.png) 6% 45% no-repeat;font-size:21px}
+.inner_video_area{width:100%;height:281px}
+.free_estimate_text_mob{font-size:28px;padding:12px 0 0}
+.upfooter_img_position{width:100%;height:auto}
+.brand_logo_comp_rev{float:inherit;margin:0 auto;width:75%;height:auto}
+.brand_logo_super_service{float:inherit;margin:0 auto;width:75%;height:auto}
+.how_do_heading{font-size:26px;color:#0055A5;display:none;padding:15px;text-transform:uppercase;font-family:Impact}
+.how_do_heading2{font-size:26px;color:#0055A5;display:block;padding:15px;text-transform:uppercase;font-family:Impact}
+.how_do_text{font-size:18px;color:#000;display:none;padding:0 15px 15px;line-height:28px;font-family:Arial}
+.how_do_heading_mob{font-size:26px;color:#0055A5;display:block;padding:15px;text-transform:uppercase;font-family:Impact;text-align:center}
+.how_do_heading_mob2{font-size:26px;color:#0055A5;display:none;padding:15px;text-transform:uppercase;font-family:Impact;text-align:center}
+.how_do_text_mob{font-size:18px;color:#000;display:block;padding:0 15px 15px;line-height:28px;font-family:Arial}
+.instant_price_quote_heading{font-size:23px}
+.captcha_hide_mob{display:none}
+.captcha_required_area{font-size:11px;display:none}
+.free_estimate_wrapper_mob{display:block;height:481px}
+.brand_logo2{height:126px}
+.menu_btn{padding:3%;display:block}
+}

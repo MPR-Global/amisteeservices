@@ -1,0 +1,74 @@
+#header div#navdrop{background:#fff;width:100% !important;height:405px;margin:0;padding:22px 0 22px 16px;display:none;position:absolute;top:192px;left:0 !important;z-index:2500;overflow:hidden}
+div#navdrop div#navcategories{width:216px;margin:0 0px 0 0;padding:0 30px 0 0;display:block;float:left;border-right:1px solid #f9a01b;min-height:491px;}
+div#navdrop div#navbrands{width:78%;margin:0;padding:0;display:block;float:left}
+#recent_blogs_div{display:none;width:25%;background-color:#fff;z-index:1;border:2px solid #ccc;text-align:left;padding:7px;float:left;margin:-362px 0px 0px 232px;position:absolute;}
+.news_blog_tweet_wrapper{width:98%;height:auto;border:0px solid red;float:left;margin:10px 0px 10px 10px;}
+.news_blog_tweet_container{width:32%;height:322px;border:1px solid #E8E8E8;border-radius:4px;float:left;margin:0px 7px 0px 1px;}
+.accredited_text{padding:0px;display:block;text-align:start;font-size:14px;font-weight:bold;}
+.shop_by_categ_head{color:#f9a01b !important;font-size:22px;font-weight:bold;text-decoration:none;font-family:Arial,Helvetica,sans-serif;display:block;margin-bottom:20px;}
+#navbrands .shop_by_categ_brand{color:#f9a01b !important;border-bottom:inherit !important;font-size:22px;font-weight:bold;text-decoration:none;font-family:Arial,Helvetica,sans-serif;display:block;margin-bottom:20px;margin-left:30px;}
+.brand_categ_wrapper{border:0px solid red;list-style:none;float:left;width:16%;margin-left:29px;margin-top:-5px;}
+.brand_categ_wrapper .brand_categ_header a{color:#11C3B9 !important;font-size:18px !important;padding:2px 0 10px 2px !important;display:block !important;clear:both !important;margin-left:-28px !important;border-bottom:1px #f9a01b dashed !important;}
+.brand_categ_list{margin-left:-40px;list-style:none;margin-top:10px;}
+.brand_categ_wrapper ul.brand_categ_list li a{color:#8C8C8C !important;font-size:12px !important;border-bottom:inherit !important;padding:1px 0 0px 1px;display:block !important;clear:both !important;}
+.element3 #element3_area1{margin:1px 2px 0px 2px;float:left;width:76px;height:51px;position:relative;border:0px solid #F00;left:16px;top:33px;}
+.element3 #element3_area2{margin:1px 2px 0px 2px;float:left;width:105px;height:51px;position:relative;border:0px solid #F00;left:103px;top:82px;}
+.element3 #element3_area3{margin:1px 2px 0px 2px;float:left;width:96px;height:51px;position:relative;border:0px solid #F00;left:28px;top:51px;}
+div#navbrands a{height:13px}
+div#navbrands a:hover{height:13px;text-decoration:underline}
+#header div#navdrop12{background:#fff;width:98.4%;height:auto;margin:0;padding:22px 0 10px 16px;display:none;position:absolute;top:192px;left:0px;z-index:2500;}div#navdrop12 div#navcategories10{width:192px;margin:0 50px 0 0;padding:0 0 0 0;display:block;float:left}div#navdrop12 a,div#navdrop12 a:hover{width:200px;height:23px;margin:0;padding:0px 0 0 5px;display:block;clear:both;color:#8C8C8C;font-size:12px;text-decoration:none;font-family:Arial,Helvetica,sans-serif;border-bottom:none;}
+.shop_by_categ_head{color:#f9a01b !important;font-size:22px;font-weight:bold;text-decoration:none;font-family:Arial,Helvetica,sans-serif;display:block;margin-bottom:20px;}
+#navbrands .shop_by_categ_brand{color:#f9a01b !important;border-bottom:inherit !important;font-size:22px;font-weight:bold;text-decoration:none;font-family:Arial,Helvetica,sans-serif;display:block;margin-bottom:20px;margin-left:30px;}
+.brand_categ_wrapper{border:0px solid red;list-style:none;float:left;width:16%;margin-left:29px;margin-top:-5px;}
+.brand_categ_wrapper .brand_categ_header a{color:#11C3B9 !important;font-size:18px !important;padding:2px 0 10px 2px !important;display:block !important;clear:both !important;margin-left:-38px !important;border-bottom:1px #f9a01b dashed !important;}
+.brand_categ_list{margin-left:-40px;list-style:none;margin-top:10px;}
+.brand_categ_wrapper ul.brand_categ_list li a{color:#8C8C8C !important;font-size:12px !important;padding:2px 0 0px 2px !important;display:block !important;clear:both !important;}
+#header div#navdrop10{background:#fff;width:98.4%;height:auto;margin:0;padding:22px 0 0 16px;display:none;position:absolute;top:192px;left:0px;z-index:2500;}div#navdrop10 div#navcategories10{width:192px;margin:0 50px 0 0;padding:0 0 0 0;display:block;float:left}div#navdrop10 a,div#navdrop10 a:hover{width:190px;height:8px;margin:0;padding:5px 0 0 5px;display:block;clear:both;color:#003b3d;font-size:14px;text-decoration:none;font-family:Arial,Helvetica,sans-serif;}
+.shop_by_categ_head{color:#f9a01b !important;font-size:22px;font-weight:bold;text-decoration:none;font-family:Arial,Helvetica,sans-serif;display:block;margin-bottom:20px;}
+#navbrands .shop_by_categ_brand{color:#f9a01b !important;border-bottom:1px solid red;font-size:22px;font-weight:bold;text-decoration:none;font-family:Arial,Helvetica,sans-serif;display:block;margin-bottom:20px;margin-left:30px;}
+.brand_categ_wrapper{border:0px solid red;list-style:none;float:left;width:16%;margin-left:29px;margin-top:-5px;}
+.brand_categ_wrapper .brand_categ_header a{color:#11C3B9 !important;font-size:18px !important;padding:2px 0 10px 2px !important;display:block !important;clear:both !important;margin-left:-38px !important;border-bottom:1px #f9a01b dashed !important;}
+.brand_categ_list{margin-left:-40px;list-style:none;margin-top:10px;}
+.brand_categ_wrapper ul.brand_categ_list li a{color:#8C8C8C !important;font-size:12px !important;border-bottom:inherit !important;padding:2px 0 0px 2px !important;display:block !important;clear:both !important;}
+#header div#navdrop13{background:#fff;width:98.4%;height:460px;margin:0;padding:22px 0 2px 16px;display:none;position:absolute;top:192px;left:0;z-index:2500;border-bottom:1px #37acb2 solid;}
+div#navdrop13 div#navcategories{width:192px;margin:0 0px 0 0;padding:0 30px 0 0;display:block;float:left;border-right:1px solid #f9a01b;min-height:491px;}
+div#navdrop13 div#navbrands{width:78%;margin:0;padding:0;display:block;float:left}
+#recent_blogs_div{display:none;width:25%;background-color:#fff;z-index:1;border:2px solid #ccc;text-align:left;padding:7px;float:left;margin:-362px 0px 0px 232px;position:absolute;}
+.news_blog_tweet_wrapper{width:98%;height:auto;border:0px solid red;float:left;margin:10px 0px 10px 10px;}
+.news_blog_tweet_container{width:32%;height:322px;border:1px solid #E8E8E8;border-radius:4px;float:left;margin:0px 7px 0px 1px;}
+.accredited_text{padding:0px;display:block;text-align:start;font-size:14px;font-weight:bold;}
+.shop_by_categ_head{color:#f9a01b !important;font-size:22px;font-weight:bold;text-decoration:none;font-family:Arial,Helvetica,sans-serif;display:block;margin-bottom:6px;}
+#navbrands .shop_by_categ_brand{color:#f9a01b !important;border-bottom:inherit !important;font-size:22px;font-weight:bold;text-decoration:none;font-family:Arial,Helvetica,sans-serif;display:block;margin-bottom:20px;margin-left:30px;}
+.brand_categ_wrapper{border:0px solid red;list-style:none;float:left;width:16%;margin-left:71px;margin-top:-5px;margin-bottom:3%;}
+.brand_categ_wrapper .brand_categ_header a{color:#11C3B9 !important;font-size:18px !important;padding:2px 0 31px 2px !important;display:block !important;clear:both !important;margin-left:-38px !important;border-bottom:1px #f9a01b dashed !important;}
+.brand_categ_list{margin-left:0px;list-style:none;margin-top:10px;}
+.brand_categ_wrapper ul.brand_categ_list li a{color:#8C8C8C !important;font-size:12px !important;border-bottom:inherit !important;padding:5px 0 0px 3px !important;display:block !important;clear:both !important;}
+.element3 #element3_area1{margin:1px 2px 0px 2px;float:left;width:76px;height:51px;position:relative;border:0px solid #F00;left:16px;top:33px;}
+.element3 #element3_area2{margin:1px 2px 0px 2px;float:left;width:105px;height:51px;position:relative;border:0px solid #F00;left:103px;top:82px;}
+.element3 #element3_area3{margin:1px 2px 0px 2px;float:left;width:96px;height:51px;position:relative;border:0px solid #F00;left:28px;top:51px;}
+div.seofooter a, div.seofooter a:hover{color:#8E93A1 !important;}
+#bottom{margin:0px auto;margin-top:1%;}
+#scroller_bottom{height:321px;overflow:scroll;overflow-x:hidden;margin-top:8%;width:101%;}
+#scroller_bottom::-webkit-scrollbar{width:5px;height:5px;}
+#scroller_bottom::-webkit-scrollbar-track{background:#ccc;}
+#scroller_bottom::-webkit-scrollbar-thumb{background:#888;}
+div.customerservice{margin-top:0%;width:475px;}
+div.testimonial{background:url('/images/skin/assets/bottom_testimonial_quote-new.png') 0 8px no-repeat !important;margin-top:0%;color:#8E93A1 !important;width:256px;padding:52px 2px 0 0;}
+div.getinvolved{background:url('/images/skin/assets/bottom_getinvolved-new.png') 0 10px no-repeat !important;margin-top:0%;}
+div.getinvolved div.form input[type="submit"]{background:url('/images/skin/assets/bottom_signup-new.png') 0 0 no-repeat !important;}
+div.customerservice div.title, div.customerservice div.opening, div.testimonial div.name, div.testimonial div.date{color:#fff !important;}
+div.customerservice div.address, div.customerservice div.numbers, div.customerservice div.numbers a, div.customerservice div.numbers a:hover, div.customerservice div.navigation div.block a, div.customerservice div.navigation div.block a:hover{color:#8E93A1 !important;}
+div.getinvolved div.form input[type="text"]{background:none !important;color:#fff !important;border:1px #8E93A1 solid !important;}
+div.getinvolved a.facebook, div.getinvolved a.facebook:hover{background:url('/images/skin/assets/bottom_social-new.png') 0 0 no-repeat !important;}
+div.getinvolved a.twitter, div.getinvolved a.twitter:hover{background:url('/images/skin/assets/bottom_social-new.png') 0 -43px no-repeat !important;}
+#recent_blogs_div{display:none;width:25%;background-color:#fff;z-index:1;border:2px solid #ccc;text-align:left;padding:7px;float:left;margin:-362px 0px 0px 232px;position:absolute;}
+.news_blog_tweet_wrapper{width:98%;height:auto;border:0px solid red;float:left;margin:10px 0px 10px 10px;}
+.news_blog_tweet_container{width:32%;height:322px;border:1px solid #E8E8E8;border-radius:4px;float:left;margin:0px 7px 0px 1px;}
+.accredited_text{padding:0px;display:block;text-align:start;font-size:14px;font-weight:bold;}
+@media (max-width:1210px){div#navdrop div#navbrands{width:77%;}
+#header div#navdrop{height:auto;}
+}
+@media (max-width:899px){div#navdrop div#navbrands{width:75%;}
+}
+@media (max-width:832px){div#navdrop div#navbrands{width:72%;}
+}

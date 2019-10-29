@@ -1,0 +1,32 @@
+.footer_scroll_area{font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:normal;color:#8E93A1 !important;width:100%;height:auto;padding:6px;text-align:justify;}
+.footer_scroll_area p{font-size:12px;}
+.footer_scroll_area a{color:#ffffff;}
+.footer_scroll_area::-webkit-scrollbar{width:5px;height:5px;}
+.footer_scroll_area::-webkit-scrollbar-track{background:#ccc;}
+.footer_scroll_area::-webkit-scrollbar-thumb{background:#888;}
+div.seofooter a, div.seofooter a:hover{color:#8E93A1 !important;}
+#bottom{margin:0px auto;margin-top:1%;}
+#scroller_bottom{height:368px;overflow:scroll;overflow-x:hidden;margin-top:8%;width:101%;}
+#scroller_bottom::-webkit-scrollbar{width:5px;height:5px;}
+#scroller_bottom::-webkit-scrollbar-track{background:#ccc;}
+#scroller_bottom::-webkit-scrollbar-thumb{background:#888;}
+div.customerservice{margin-top:0%;width:100%;}
+div.testimonial{background:url('/images/skin/assets/bottom_testimonial_quote-new.png') 0 8px no-repeat !important;margin-top:0%;color:#8E93A1 !important;width:100%;padding:52px 2px 0 0;}
+div.getinvolved{background:url('/images/skin/assets/bottom_getinvolved-new.png') 0 10px no-repeat !important;margin-top:0%;}
+div.getinvolved div.form input[type="submit"]{background:url('/images/skin/assets/bottom_signup-new.png') 0 0 no-repeat !important;}
+div.customerservice div.title, div.customerservice div.opening, div.testimonial div.name, div.testimonial div.date{color:#fff !important;}
+div.customerservice div.address, div.customerservice div.numbers, div.customerservice div.numbers a, div.customerservice div.numbers a:hover, div.customerservice div.navigation div.block a, div.customerservice div.navigation div.block a:hover{color:#8E93A1 !important;}
+div.getinvolved div.form input[type="text"]{background:none !important;color:#fff !important;border:1px #8E93A1 solid !important;}
+div.getinvolved a.facebook, div.getinvolved a.facebook:hover{background:url('/images/skin/assets/bottom_social-new.png') 0 0 no-repeat !important;}
+div.getinvolved a.twitter, div.getinvolved a.twitter:hover{background:url('/images/skin/assets/bottom_social-new.png') 0 -43px no-repeat !important;}
+#recent_blogs_div{display:none;width:25%;background-color:#fff;z-index:1;border:2px solid #ccc;text-align:left;padding:7px;float:left;margin:-362px 0px 0px 232px;position:absolute;}
+.news_blog_tweet_wrapper{width:98%;height:auto;border:0px solid red;float:left;margin:10px 0px 10px 10px;}
+.news_blog_tweet_container{width:100%;height:auto;border:1px solid #E8E8E8;border-radius:4px;float:left;margin:0px 7px 41px 1px;}
+.accredited_text{padding:0px;display:block;text-align:start;font-size:14px;font-weight:bold;}
+@media (max-width:1210px){#scroller_bottom{margin-top:15%;}
+}
+@media (max-width:640px){#scroller_bottom{margin-top:21%;}
+.footer_scroll_area{padding:6px;}
+}
+@media (max-width:428px){#scroller_bottom{margin-top:28%;}
+}
