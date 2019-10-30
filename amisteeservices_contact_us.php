@@ -4,7 +4,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['Email']) ) {
 
     // Build POST request:
     $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-    $recaptcha_secret = '6LdBIK0UAAAAANVJwcm6dYGg0H5gmFomN7O3DV0W';
+    $recaptcha_secret = '.....XXXXXXXXXXXXXXX......';
 		if(isset($_POST['recaptcha_response']) ){
 			 $recaptcha_response = $_POST['recaptcha_response'];
 			
