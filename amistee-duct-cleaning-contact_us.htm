@@ -243,15 +243,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		   
 
 		</script>
-   <script>
-var onloadCallback = function() {
-grecaptcha.render('recaptcha1', {'sitekey' : '6Ld0nR0UAAAAALT6RaoL58ggt1p8Kp3AFEN7AHVj', 'theme' : 'dark','size' : 'compact'}); 
-grecaptcha.render('recaptcha2', {'sitekey' : '6LdnTR0UAAAAAGOaQh2RQsab25djT5CviWoARVhy', 'theme' : 'dark'}); 
-};
-</script>
-<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
-
-<script src='https://www.google.com/recaptcha/api.js'></script>
+ 	 <script src="https://www.google.com/recaptcha/api.js?render=6LdBIK0UAAAAAKlouFJsbdualMWCgf5oF2znQ436"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LdBIK0UAAAAAKlouFJsbdualMWCgf5oF2znQ436', { action: 'contact' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+				  document.getElementById('recaptchaResponse2').value=token;
+            });
+        });
+    </script>
    </head>
    <body>
    	<!-- Google Tag Manager (noscript) -->
@@ -399,7 +400,7 @@ grecaptcha.render('recaptcha2', {'sitekey' : '6LdnTR0UAAAAAGOaQh2RQsab25djT5CviW
                   <span class="how_do_heading2" style="letter-spacing: 2px;line-height: 41px;margin-top: 12px;">For a FREE ESTIMATE, Call <a href="tel:877.349.8877" style="color: #0055A5;">877.349.8877</a> or please answer questions</span>
                   <span class="how_do_text" style="text-align:justify;color:#002A52;display:block;">
 					<script src="../js_optimized/contact_form_js_without_captcha.js"></script>
-					  <form name="ContactUs_Form1" id="webQuoteStyle" action="ProcessContactForm2017.php" method="POST" onSubmit="return ContactUs_Form1_Validator_desktop(this)" language="JavaScript">
+					  <form name="ContactUs_Form1" id="webQuoteStyle" action="amisteeservices_contact_us.php" method="POST" onSubmit="return ContactUs_Form1_Validator_desktop(this)" language="JavaScript">
 						 <div class="form-group" style="margin-bottom: 6px;">
 							<input type="text" class="form-control text_box_area" id="Name" name="Name" placeholder="Name*">
 							<textarea class="form-control text_box_area" rows="1" id="Address" name="Address" placeholder="Address"></textarea>
@@ -491,13 +492,36 @@ grecaptcha.render('recaptcha2', {'sitekey' : '6LdnTR0UAAAAAGOaQh2RQsab25djT5CviW
 						 </div>
 						 <input type="submit" value="Submit Form" class="btn btn-success sbt_btn_pos">
 						 <!--<a href="" class="privacy_policy_style">Privacy Policy</a>-->
-					  </form>					  					  					  <!-- Mobile Contact us  Form -->                                             <form name="ContactUs_Form1" id="mobQuoteStyle" action="ProcessContactForm2017.php" method="POST" onSubmit="return ContactUs_Form1_Validator_desktop(this)" language="JavaScript">						 <div class="form-group" style="margin-bottom: 6px;">							<input type="text" class="form-control text_box_area" id="Name" name="Name" placeholder="Name*">																					<input type="text" class="form-control text_box_area" name="Phone" id="Phone" placeholder="Phone*">							<input type="email" class="form-control text_box_area" name="Email" id="Email" placeholder="Email*">														<label for="sel1">Type of Service Needed</label>							  <select size="1" name="Type_of_Estimate" class="form-control" id="sel1">								<option selected="" value="- Please Select One">- Please Select One</option>								<option value="Air Duct Cleaning">Air Duct Cleaning</option>								<option value="Dryer Vent Cleaning">Dryer Vent Cleaning								</option>								<option value="Air Duct and Dryer Vent Cleaning">Air Duct and Dryer Vent Cleaning								</option>								<option value="Insultation">Insulation</option>			
-                                                  <option value="Duct Sealing powered by Aeroseal">Duct Sealing powered by Aeroseal</option>
-                    
-                                                  </select>							  																					<label for="sel1">Comments</label>  							<textarea class="form-control text_box_area" rows="6" id="Comments" name="Comments" placeholder="Comments"></textarea>								
+						  <input type="hidden" name="recaptcha_response2" id="recaptchaResponse2">
+					  </form>					  					  					 
+					  <!-- Mobile Contact us  Form -->                                            
+
+					  <form name="ContactUs_Form1" id="mobQuoteStyle" action="amisteeservices_contact_us.php" method="POST" onSubmit="return ContactUs_Form1_Validator_desktop(this)" language="JavaScript">				
+					  <div class="form-group" style="margin-bottom: 6px;">		
+					  <input type="text" class="form-control text_box_area" id="Name" name="Name" placeholder="Name*">		
+					  <input type="text" class="form-control text_box_area" name="Phone" id="Phone" placeholder="Phone*">
+					  <input type="email" class="form-control text_box_area" name="Email" id="Email" placeholder="Email*">	
+					  <label for="sel1">Type of Service Needed</label>					
+					  <select size="1" name="Type_of_Estimate" class="form-control" id="sel1">
+							  <option selected="" value="- Please Select One">- Please Select One</option>	
+							  <option value="Air Duct Cleaning">Air Duct Cleaning</option>					
+							  <option value="Dryer Vent Cleaning">Dryer Vent Cleaning</option>							
+							  <option value="Air Duct and Dryer Vent Cleaning">Air Duct and Dryer Vent Cleaning</option>							
+							  <option value="Insultation">Insulation</option>			
+							  <option value="Duct Sealing powered by Aeroseal">Duct Sealing powered by Aeroseal</option>
+							
+                                  </select>							  																					
+								  <label for="sel1">Comments</label>  						
+								  <textarea class="form-control text_box_area" rows="6" id="Comments" name="Comments" placeholder="Comments"></textarea>	
+								  
 												  
-												  <div id="recaptcha1"></div>
-												  </div>						 <input type="submit" value="Submit Form" class="btn btn-success sbt_btn_pos">						 <!--<a href="" class="privacy_policy_style">Privacy Policy</a>-->					  </form>                                            <!-- End of Mobile version Contact Us Form-->
+												 
+										 </div>						
+							 <input type="submit" value="Submit Form" class="btn btn-success sbt_btn_pos">					
+							 <!--<a href="" class="privacy_policy_style">Privacy Policy</a>-->	
+							<input type="hidden" name="recaptcha_response" id="recaptchaResponse">							 
+							 </form>                                            
+							 <!-- End of Mobile version Contact Us Form-->
 					<br/><br/>					
                   </span>
                   <!--<center class="video_shade" style=""><iframe src="http://www.youtube.com/embed/jy4SRUqL5ko"  frameborder="0" allowfullscreen class="inner_video_area"></iframe></center>-

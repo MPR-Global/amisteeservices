@@ -19,20 +19,19 @@
             e.parentNode.insertBefore(t, e)
         }()
 </script>
-<script>
-    var onloadCallback = function() {
-        grecaptcha.render("recaptcha1", {
-            sitekey: "6Ld0nR0UAAAAALT6RaoL58ggt1p8Kp3AFEN7AHVj",
-            theme: "dark",
-            size: "compact"
-        }), grecaptcha.render("recaptcha2", {
-            sitekey: "6LdnTR0UAAAAAGOaQh2RQsab25djT5CviWoARVhy",
-            theme: "dark"
-        })
-    }
-</script>
-<script src=js_optimized/re-captcha.js async></script>
-<script src=js_optimized/GTM-head-commercial.js async></script><script src='https://www.google.com/recaptcha/api.js'></script>
+
+<script src=js_optimized/GTM-head-commercial.js async></script>
+ <script src="https://www.google.com/recaptcha/api.js?render=6LdBIK0UAAAAAKlouFJsbdualMWCgf5oF2znQ436"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LdBIK0UAAAAAKlouFJsbdualMWCgf5oF2znQ436', { action: 'contact' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+				  document.getElementById('recaptchaResponse2').value=token;
+            });
+        });
+    </script>
+	
 </head>
 <body>
     <script src=js_optimized/GTM.js async></script>
@@ -143,15 +142,16 @@
                         <center>
                             <div class=quick_contact_area_mob><span class=instant_price_quote_heading>Online Price Quote</span>
                                 <div class=text_field_wrap>
-                                    <form action=amistee-duct-cleaning-contact_us.htm language=JavaScript method=POST name=ContactUs_Form1 onsubmit="return ContactUs_Form1_Validator(this)" role=form>
+                                    <form 	action="amisteeservices_contact_us.php" language=JavaScript method=POST name=ContactUs_Form1 onsubmit="return ContactUs_Form1_Validator(this)" role=form>
                                         <div class=form-group style=margin-bottom:6px>
                                             <input class="form-control text_box_area" id=Name name=Name placeholder=Name*>
                                             <input class="form-control text_box_area" id=Phone name=Phone placeholder=Phone*>
                                             <input class="form-control text_box_area" id=Email name=Email placeholder=Email* type=email>
                                             <textarea class="form-control text_box_area" id=Comments name=Comments placeholder=Comments rows=1></textarea> <select size="1" name="Type_of_Estimate" class="form-control" id="sel1" style="margin-bottom: 4px;">											<option selected="" value="-1">Select Service Needed</option>											<option value="Commercial Duct Cleaning">Commercial Duct Cleaning </option>											<option value="Commercial Coil Cleaning">Commercial Coil Cleaning </option>											<option value="Commercial Vent Cleaning">Commercial Vent Cleaning </option>											<option value=" Commercial Clients"> Commercial Clients </option>                                        </select>
-                                           <div class="g-recaptcha" data-sitekey="6LdtFCoUAAAAAPsfXSBO4eMGnXXLGTYJbotqR6jh"></div>
                                         </div>
                                         <input class="btn btn-success sbt_btn_pos" type=submit value="Submit Form">
+											<input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+
                                     </form>
                                 </div>
                             </div>
@@ -169,15 +169,16 @@
                         <center>
                             <div class=quick_contact_area_mob><span class=instant_price_quote_heading>Online Price Quote</span>
                                 <div class=text_field_wrap>
-                                    <form action=amistee-duct-cleaning-contact_us.htm language=JavaScript method=POST name=ContactUs_Form1 onsubmit="return ContactUs_Form1_Validator_desktop(this)" role=form>
+                                    <form 	action="amisteeservices_contact_us.php" language=JavaScript method=POST name=ContactUs_Form1 onsubmit="return ContactUs_Form1_Validator_desktop(this)" role=form>
                                         <div class=form-group style=margin-bottom:6px>
                                             <input class="form-control text_box_area" id=Name name=Name placeholder=Name*>
                                             <input class="form-control text_box_area" id=Phone name=Phone placeholder=Phone*>
                                             <input class="form-control text_box_area" id=Email name=Email placeholder=Email* type=email>
                                             <textarea class="form-control text_box_area" id=Comments name=Comments placeholder=Comments rows=1></textarea> <select size="1" name="Type_of_Estimate" class="form-control" id="sel1" style="margin-bottom: 4px;">											<option selected="" value="-1">Select Service Needed</option>											<option value="Commercial Duct Cleaning">Commercial Duct Cleaning </option>											<option value="Commercial Coil Cleaning">Commercial Coil Cleaning </option>											<option value="Commercial Vent Cleaning">Commercial Vent Cleaning </option>											<option value=" Commercial Clients"> Commercial Clients </option>                                        </select>
-                                           <div class="g-recaptcha" data-sitekey="6LdtFCoUAAAAAPsfXSBO4eMGnXXLGTYJbotqR6jh"></div>
                                         </div>
                                         <input class="btn btn-success sbt_btn_pos" type=submit value="Submit Form">
+											 <input type="hidden" name="recaptcha_response2" id="recaptchaResponse2">
+
                                     </form>
                                 </div>
                             </div>

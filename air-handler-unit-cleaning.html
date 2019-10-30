@@ -12,9 +12,20 @@
 <meta name=viewport content="width=device-width, initial-scale=1">
 <link href=css_optimized/bootstrap.min.css rel=stylesheet>
 <script type=text/javascript>var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-29597976-1"]);_gaq.push(["_trackPageview"]);(function(){var b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)})();</script>
-<script>var onloadCallback=function(){grecaptcha.render("recaptcha1",{sitekey:"6Ld0nR0UAAAAALT6RaoL58ggt1p8Kp3AFEN7AHVj",theme:"dark",size:"compact"});grecaptcha.render("recaptcha2",{sitekey:"6LdnTR0UAAAAAGOaQh2RQsab25djT5CviWoARVhy",theme:"dark"})};</script>
-<script async src="js_optimized/re-captcha.js"></script>
-<script async type=text/javascript src=js_optimized/GTM-head-commercial.js></script><script src='https://www.google.com/recaptcha/api.js'></script>
+<script async type=text/javascript src=js_optimized/GTM-head-commercial.js></script>
+
+	 <script src="https://www.google.com/recaptcha/api.js?render=6LdBIK0UAAAAAKlouFJsbdualMWCgf5oF2znQ436"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LdBIK0UAAAAAKlouFJsbdualMWCgf5oF2znQ436', { action: 'contact' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+				  document.getElementById('recaptchaResponse2').value=token;
+            });
+        });
+    </script>
+	
+	
 </head>
 <body>
 <script async type=text/javascript src=js_optimized/GTM.js></script>
@@ -126,15 +137,15 @@
 <div class=quick_contact_area_mob>
 <span class=instant_price_quote_heading>Online Price Quote</span>
 <div class=text_field_wrap>
-<form name=ContactUs_Form1 action=amistee-duct-cleaning-contact_us.htm method=POST onsubmit="return ContactUs_Form1_Validator(this)" language=JavaScript role=form>
+<form name=ContactUs_Form1 action="amisteeservices_contact_us.php" method=POST onsubmit="return ContactUs_Form1_Validator(this)" language=JavaScript role=form>
 <div class=form-group style=margin-bottom:6px>
 <input type=text class="form-control text_box_area" id=Name name=Name placeholder=Name*>
 <input type=text class="form-control text_box_area" name=Phone id=Phone placeholder=Phone*>
 <input type=email class="form-control text_box_area" name=Email id=Email placeholder=Email*>
 <textarea class="form-control text_box_area" rows=1 id=Comments name=Comments placeholder=Comments></textarea>
-<div class="g-recaptcha" data-sitekey="6LdtFCoUAAAAAPsfXSBO4eMGnXXLGTYJbotqR6jh"></div>
 </div>
 <input type=submit value="Submit Form" class="btn btn-success sbt_btn_pos">
+	<input type="hidden" name="recaptcha_response" id="recaptchaResponse">
 </form>
 </div>
 </div>
@@ -173,15 +184,15 @@ Call Amistee today and find out how simple it is to schedule a free estimate. We
 <div class=quick_contact_area_mob>
 <span class=instant_price_quote_heading>Online Price Quote</span>
 <div class=text_field_wrap>
-<form name=ContactUs_Form1 action=amistee-duct-cleaning-contact_us.htm method=POST onsubmit="return ContactUs_Form1_Validator_desktop(this)" language=JavaScript role=form>
+<form name=ContactUs_Form1 action="amisteeservices_contact_us.php" method=POST onsubmit="return ContactUs_Form1_Validator_desktop(this)" language=JavaScript role=form>
 <div class=form-group style=margin-bottom:6px>
 <input type=text class="form-control text_box_area" id=Name name=Name placeholder=Name*>
 <input type=text class="form-control text_box_area" name=Phone id=Phone placeholder=Phone*>
 <input type=email class="form-control text_box_area" name=Email id=Email placeholder=Email*>
 <textarea class="form-control text_box_area" rows=1 id=Comments name=Comments placeholder=Comments></textarea>
-<div class="g-recaptcha" data-sitekey="6LdtFCoUAAAAAPsfXSBO4eMGnXXLGTYJbotqR6jh"></div>
 </div>
 <input type=submit value="Submit Form" class="btn btn-success sbt_btn_pos">
+	 <input type="hidden" name="recaptcha_response2" id="recaptchaResponse2">
 </form>
 </div>
 </div>

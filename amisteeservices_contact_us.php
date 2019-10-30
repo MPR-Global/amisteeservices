@@ -1,10 +1,17 @@
 <?php
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response']) && isset($_POST['Email']) ) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['Email']) ) {
+//if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response']) && isset($_POST['Email']) ) {
 
     // Build POST request:
     $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
     $recaptcha_secret = '6LdBIK0UAAAAANVJwcm6dYGg0H5gmFomN7O3DV0W';
-    $recaptcha_response = $_POST['recaptcha_response'];
+		if(isset($_POST['recaptcha_response']) ){
+			 $recaptcha_response = $_POST['recaptcha_response'];
+			
+		}
+   else{
+	 $recaptcha_response = $_POST['recaptcha_response2'];
+   }
 
     // Make and decode POST request:
     $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
@@ -16,7 +23,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response'])
 		
 									$today = date("F j, Y");
 									//$email_to = "steve@amistee.com,mike@amistee.com,kevin@amistee.com,donna@amistee.com,jamie@amistee.com,shaileshk@mprglobalsolutions.com,deepikab@mprglobalsolutions.com,jeff@amistee.com,rohitl@mprglobalsolutions.com,rohitl@amistee.com "; // your email address
-									$email_to = "deepikab@mprglobalsolutions.com,rohitl@mprglobalsolutions.com "; // your email address
+									//$email_to = "deepikab@mprglobalsolutions.com,rohitl@mprglobalsolutions.com "; // your email address
+									$email_to = "steve@amistee.com,mike@amistee.com,kevin@amistee.com,donna@amistee.com,jamie@amistee.com,shaileshk@mprglobalsolutions.com,rohitl@mprglobalsolutions.com,kelly@amistee.com,deepikab@mprglobalsolutions.com,prashantb@mprglobalsolutions.com ";
+									
 									$email_subject = $today . " :Its time to offer great service to a amisteeservices customer"; // email subject line
 									$thankyou = "form_response_2019.html"; // thank you page
 									
@@ -97,7 +106,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response'])
 
     } else {
         // Not verified - show form error
-		echo "<script >alert('It Seems Robotic Action.');</script>";
+		
+		//var_dump ($recaptcha);
+		
+		echo "<script >alert('The response is no longer valid: either is too old or has been used previously. Kindly Refresh your Page.');</script>";
+		echo "<script>location.href = 'http://amisteeservices.com/';</script>";
 		}
 
 		

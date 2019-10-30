@@ -20,22 +20,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="css_optimized/bootstrap.min.css" rel="stylesheet" media="screen">
-    <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+ 
+ 	 <script src="https://www.google.com/recaptcha/api.js?render=6LdBIK0UAAAAAKlouFJsbdualMWCgf5oF2znQ436"></script>
     <script>
-        var onloadCallback = function() {
-            grecaptcha.render('recaptcha1', {
-                'sitekey': '6Ld0nR0UAAAAALT6RaoL58ggt1p8Kp3AFEN7AHVj',
-                'theme': 'dark',
-                'size': 'compact'
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LdBIK0UAAAAAKlouFJsbdualMWCgf5oF2znQ436', { action: 'contact' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+				  document.getElementById('recaptchaResponse2').value=token;
             });
-            grecaptcha.render('recaptcha2', {
-                'sitekey': '6LdnTR0UAAAAAGOaQh2RQsab25djT5CviWoARVhy',
-                'theme': 'dark'
-            });
-        };
-    </script><script src='https://www.google.com/recaptcha/api.js'></script>
-    <script src=js_optimized/re-captcha.js async></script>
-    <script src=js_optimized/GTM-head-commercial.js async></script>
+        });
+    </script>
+	
+	
 </head>
 
 <body>
@@ -174,7 +171,7 @@
             </div>
         </div><a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="icon-prev"></span></a><a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="icon-next"></span></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="icon-next"></span></a>
         <div class="instant_price_quote_wrapper" style="height:349px;width:374px;top:-25px;">
-            <form name="ContactUs_Form1" action="amistee-duct-cleaning-contact_us.htm" method="POST" onSubmit="return ContactUs_Form1_Validator_desktop(this)" language="JavaScript"><span class="instant_price_quote_heading_index" style="margin-top:1px;">Online Price Quote</span>
+            <form name="ContactUs_Form1" action="amisteeservices_contact_us.php" method="POST" onSubmit="return ContactUs_Form1_Validator_desktop(this)" language="JavaScript"><span class="instant_price_quote_heading_index" style="margin-top:1px;">Online Price Quote</span>
                 <div class="text_field_wrap_index form-group">
                     <input type="text" class="form-control textbox_bottom_margin" id="Name" name="Name" placeholder="Name*" style="margin-bottom:3px;">
                     <input type="text" class="form-control textbox_bottom_margin" name="Phone" id="Phone" placeholder="Phone*" style="margin-bottom:3px;">
@@ -182,9 +179,9 @@
                     <textarea class="form-control text_box_area" rows="1" id="Comments" name="Comments" placeholder="Comments" style="margin-bottom:3px;"></textarea>
                     <select size="1" name="Type_of_Estimate" class="form-control textbox_bottom_margin" id="sel1" style="margin-bottom:3px;">						<option selected="" value="-1">Select Service Needed</option>						<option value="Commercial Duct Cleaning">Commercial Duct Cleaning </option>						<option value="Commercial Coil Cleaning">Commercial Coil Cleaning </option>						<option value="Commercial Vent Cleaning">Commercial Vent Cleaning </option>						<option value=" Commercial Clients"> Commercial Clients </option>
                     </select>
-                    <div class="g-recaptcha" data-sitekey="6LdtFCoUAAAAAPsfXSBO4eMGnXXLGTYJbotqR6jh"></div>
                     <input type="submit" value="Submit Form" class="btn btn-success sbt_btn_pos_index">
                 </div>
+			<input type="hidden" name="recaptcha_response2" id="recaptchaResponse2">
             </form>
         </div>
     </header>
@@ -220,7 +217,7 @@
                     <center>
                         <div class="quick_contact_area_mob"><span class="instant_price_quote_heading" style="margin-top: 22px;">Online Price Quote</span>
                             <div class="text_field_wrap">
-                                <form name="ContactUs_Form1" action="amistee-duct-cleaning-contact_us.htm" method="POST" onSubmit="return ContactUs_Form1_Validator_desktop(this)" language="JavaScript">
+                                <form name="ContactUs_Form1" action="amisteeservices_contact_us.php" method="POST" onSubmit="return ContactUs_Form1_Validator_desktop(this)" language="JavaScript">
                                     <div class="form-group" style="margin-bottom: 6px;">
                                         <input type="text" class="form-control text_box_area" id="Name" name="Name" placeholder="Name*">
                                         <input type="text" class="form-control text_box_area" name="Phone" id="Phone" placeholder="Phone*">
@@ -228,9 +225,10 @@
                                         <textarea class="form-control text_box_area" rows="1" id="Comments" name="Comments" placeholder="Comments"></textarea>
                                         <select size="1" name="Type_of_Estimate" class="form-control" id="sel1" style="margin-bottom: 4px;">											<option selected="" value="-1">Select Service Needed</option>											<option value="Commercial Duct Cleaning">Commercial Duct Cleaning </option>											<option value="Commercial Coil Cleaning">Commercial Coil Cleaning </option>											<option value="Commercial Vent Cleaning">Commercial Vent Cleaning </option>											<option value=" Commercial Clients"> Commercial Clients </option>
                                         </select>
-                                        <div class="g-recaptcha" data-sitekey="6LdtFCoUAAAAAPsfXSBO4eMGnXXLGTYJbotqR6jh"></div>
                                     </div>
                                     <input type="submit" value="Submit Form" class="btn btn-success sbt_btn_pos">
+										<input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+
                                 </form>
                             </div>
                         </div>
